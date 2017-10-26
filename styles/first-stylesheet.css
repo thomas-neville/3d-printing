@@ -25,6 +25,8 @@ img {
   padding: 10px;
 }
 
+/* insert floating for images if covered in class, read about clearing floats and clear fix. */
+
 body {
   font-family: "Arial", "Verdana", sans-serif;
   background-color: lightgrey;
