@@ -33,11 +33,12 @@ body {
 }
 
 article {
-  background-color: #98C1F2
-  background-blend-mode: darken;
+  background-color: #98C1F2;
   width: 75%;
   margin:auto;
 }
+
+/* removed background-blend-mode - not supported by IE */
 
 a:link {
   text-decoration: none;
