@@ -1,0 +1,42 @@
+#main {
+  color: gray;
+}
+
+img {
+  width:100px;
+  height:auto;
+}
+
+a:hover {
+  text-decoration: underline;
+  font-size: 1.5em
+}
+
+p::first-letter {
+  font-size: 2em;
+  color: firebrick
+}
+
+h1:hover {
+  color:green
+}
+
+a:visited {
+  text-decoration-line: none
+}
+
+article {
+  width: 75%
+  margin:auto;
+}
+
+header {
+  width:75%;
+  margin:auto;
+  background-color:dimgray;
+}
+
+footer {
+  border:1px solid red;
+  border-radius: 10px
+}
