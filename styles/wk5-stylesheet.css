@@ -62,8 +62,12 @@ body {
 }
 
 header {
-  padding: 1em;
+  padding-bottom: 5em;
   background-color: rgba(95, 176, 255, 0.5);
+}
+
+header img {
+  margin: .5em 15em .5em;
 }
 
 #navbar {
@@ -78,6 +82,7 @@ header {
 #navbar ul {
   background-color: rgba(89, 232, 155, 0.5);
   width: 100%;
+  font-size: 1.5em;
 }
 
 #navbar ul li {
@@ -86,6 +91,7 @@ header {
   text-align: center; 
   border-bottom: 1em solid 59E89B;
   width: 20%;
+  
 }
 
 #navbar li a {
@@ -95,26 +101,65 @@ header {
   color: white;
 }
 
+#navbar li:hover {
+  background-color: #5EF5A4;
+}
+
 article {
   padding: 1em;
+  color: white;
   
 }
 
 section {
   padding: 1em;
+  color: white;
+}
+
+section ul {
+  padding-left: 3em;
+}
+
+section ul li {
+  text-indent: .25em;
+}
+
+table {
+  margin: 2em;
+  border: 2px solid #2F587F;
+}
+
+table th {
+  font-size: 1.5em;
+  text-align: center;
+  border: 2px solid #2F587F;
+}
+
+th, td {
+  padding: 1em;
+  font-size: 1em;
+  text-align: left;
+  border-left: 1px solid #2F587F;
+  border-right: 1px solid #2F587F;  
+}
+
+td:hover {
+  background-color: rgba(71, 132, 191, 0.7)
 }
 
 aside {
   padding: 1em;
+  color: white;
 }
 
 footer {
-  padding: 1em;
-  background-color: rgba(209, 255, 73, 0.5); 
+  padding-bottom: 2em;
+  background-color: rgba(95, 176, 255, 0.5); 
 }
 
 img {
   padding: 2em;
+  max-height: 10em;
   border-color: rgba(89, 232, 155, 0.8);
   border-width: .5em;
     
@@ -122,6 +167,7 @@ img {
 
 p {
   padding: 1em;
+  color: white;
 }
 
 blockquote {
@@ -151,5 +197,10 @@ h3 {
   font-family: 'Barlow', sans-serif;
   color: white;
   padding: 1em;
-  
+}
+
+h4 {
+  font-family: 'Barlow', sans-serif;
+  color: white;
+  padding: 1em;
 }
