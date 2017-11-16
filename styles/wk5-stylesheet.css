@@ -116,6 +116,11 @@ section {
   color: white;
 }
 
+section a {
+  text-decoration: none;
+  color: #D1FF49;
+}
+
 section ul {
   padding-left: 3em;
 }
@@ -148,7 +153,13 @@ td:hover {
 }
 
 aside {
+  clear: both;
   padding: 1em;
+  color: white;
+}
+
+aside a {
+  text-decoration: none;
   color: white;
 }
 
@@ -157,12 +168,25 @@ footer {
   background-color: rgba(95, 176, 255, 0.5); 
 }
 
-img {
-  padding: 2em;
+section img {
+  padding: 1em 2em;
   max-height: 10em;
   border-color: rgba(89, 232, 155, 0.8);
   border-width: .5em;
-    
+}
+
+section p {
+  clear: both;
+  padding: 1em;
+  color: white;
+}
+
+#main a {
+  padding: 1em;
+}
+
+#main p {
+  margin-bottom: 2em;
 }
 
 p {
@@ -193,14 +217,24 @@ h2 {
   padding: 1em;
 }
 
+h2 a {
+  text-decoration: none;
+  color: white;
+}
+
 h3 {
   font-family: 'Barlow', sans-serif;
   color: white;
   padding: 1em;
 }
 
+h3 a {
+  text-decoration: none;
+  color: white;
+}
+
 h4 {
   font-family: 'Barlow', sans-serif;
   color: white;
-  padding: 1em;
+  padding: 1em 0 0 1em;
 }
