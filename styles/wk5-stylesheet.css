@@ -49,70 +49,81 @@ table {
 /* End of Meyer Reset */
 
 head {
-  
+  padding: 1em;
 }
 
 body {
   margin: 0 0 0 0;
   max-width: 100%;
   background-color: dimgray;
+  text-align: left;
   font-family: 'Barlow Condensed', sans-serif;
   clear: both;
 }
 
 header {
-  
+  padding: 1em;
+  background-color: rgba(95, 176, 255, 0.5);
 }
 
-.navbar {
+.navbar nav {
   text-decoration: none;
   width: 100%;
   margin: 0 0 0 0;
   font: 209 255 73 0.8;
 }
 
-.navbar a {
+.navbar nav a {
   float: left;
   text-decoration: none;
   font: 209 255 73 0.8;
 }
 
 article {
+  padding: 1em;
   
 }
 
 section {
-  
+  padding: 1em;
 }
 
 aside {
-  
+  padding: 1em;
 }
 
 footer {
-  
+  padding: 1em;
+  background-color: rgba(209, 255, 73, 0.5); 
 }
 
 img {
-  
+  padding: 2em;
+  border-color: rgba(89, 232, 155, 0.8);
+  border-width: medium;
+    
 }
 
 p {
-  
+  padding: 1em;
 }
 
 h1 {
   font-family: 'Barlow', sans-serif;
-  color: white
+  color: white;
+  padding: 1em;
+  text-align: center;
 }
 
 h2 {
   font-family: 'Barlow', sans-serif;
   color: white;
+  padding: 1em;
 }
 
 h3 {
   font-family: 'Barlow', sans-serif;
   color: white;
+  padding: 1em;
   
 }
