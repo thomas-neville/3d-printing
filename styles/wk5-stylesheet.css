@@ -66,17 +66,33 @@ header {
   background-color: rgba(95, 176, 255, 0.5);
 }
 
-.navbar nav {
-  text-decoration: none;
-  width: 100%;
+#navbar {
+  background-color: rgba(89, 232, 155, 0.5);
+  color: #ffffff;
+  font-weight: bold;
   margin: 0 0 0 0;
-  font: 209 255 73 0.8;
+  float: left;
+  width: 100%;
 }
 
-.navbar nav a {
+#navbar ul {
+  background-color: rgba(89, 232, 155, 0.5);
+  width: 100%;
+}
+
+#navbar ul li {
   float: left;
+  padding: .5em 0 .5em;
+  text-align: center; 
+  border-right: 2px solid 59E89B;
+  width: 20%;
+}
+
+#navbar li a {
+  display: block;
+  padding: 0 0;
   text-decoration: none;
-  font: 209 255 73 0.8;
+  color: white;
 }
 
 article {
@@ -100,7 +116,7 @@ footer {
 img {
   padding: 2em;
   border-color: rgba(89, 232, 155, 0.8);
-  border-width: medium;
+  border-width: .5em;
     
 }
 
