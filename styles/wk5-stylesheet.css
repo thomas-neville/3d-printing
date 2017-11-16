@@ -70,7 +70,7 @@ header {
   background-color: rgba(89, 232, 155, 0.5);
   color: #ffffff;
   font-weight: bold;
-  margin: 0 0 0 0;
+  margin: 1em 0 1em;
   float: left;
   width: 100%;
 }
@@ -84,7 +84,7 @@ header {
   float: left;
   padding: .5em 0 .5em;
   text-align: center; 
-  border-right: 2px solid 59E89B;
+  border-bottom: 1em solid 59E89B;
   width: 20%;
 }
 
@@ -122,6 +122,16 @@ img {
 
 p {
   padding: 1em;
+}
+
+blockquote {
+  padding: 1em;
+  color: white;
+}
+
+table {
+  padding: 1em;
+  color: white;
 }
 
 h1 {
