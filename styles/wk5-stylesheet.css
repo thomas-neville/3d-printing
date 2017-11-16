@@ -56,6 +56,7 @@ body {
   margin: 0 0 0 0;
   max-width: 100%;
   background-color: dimgray;
+  font-family: 'Barlow Condensed', sans-serif;
   clear: both;
 }
 
@@ -101,13 +102,17 @@ p {
 }
 
 h1 {
-  
+  font-family: 'Barlow', sans-serif;
+  color: white
 }
 
 h2 {
-  
+  font-family: 'Barlow', sans-serif;
+  color: white;
 }
 
 h3 {
+  font-family: 'Barlow', sans-serif;
+  color: white;
   
 }
